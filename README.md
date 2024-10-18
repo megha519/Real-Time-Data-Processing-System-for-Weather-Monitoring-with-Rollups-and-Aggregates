@@ -5,6 +5,14 @@ This project implements a real-time data processing system for weather monitorin
 
 ## Installation
 
+
+### Prerequisites
+- Python 3.x
+- Flask
+- SQLite
+- Requests
+- Matplotlib
+
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/your_username/weather_monitoring.git
