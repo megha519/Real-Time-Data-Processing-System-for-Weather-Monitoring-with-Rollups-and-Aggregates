@@ -1,0 +1,2 @@
+# Real-Time-Data-Processing-System-for-Weather-Monitoring-with-Rollups-and-Aggregates
+A real-time weather monitoring system that fetches data from the OpenWeatherMap API every 5 minutes. It computes daily summaries, including average, max, and min temperatures, along with the dominant weather condition. The system also implements alert thresholds for extreme weather and visualizes trends through plots.
