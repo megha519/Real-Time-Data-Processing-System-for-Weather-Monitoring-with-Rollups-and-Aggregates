@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>Weather Monitoring</title>
+</head>
+<body>
+    <h1>Real-Time Weather Monitoring</h1> 
+    <a href="/plot" style="
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+" onmouseover="this.style.backgroundColor='#2980b9'" onmouseout="this.style.backgroundColor='#3498db'">
+    Visualization
+</a>
+    <table>
+        <thead>
+            <tr>
+                <th>City</th>
+                <th>Temperature (°C)</th>
+                <th>Feels Like (°C)</th>
+                <th>Weather Condition</th>
+                <th>Timestamp</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for city, temperature, feels_like, weather_condition, timestamp in weather_data %}
+                <tr>
+                    <td>{{ city }}</td>
+                    <td>{{ temperature }}</td>
+                    <td>{{ feels_like }}</td>
+                    <td>{{ weather_condition }}</td>
+                    <td>{{ timestamp }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    
+</body>
+</html>
