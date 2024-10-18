@@ -7,25 +7,25 @@ This project implements a real-time data processing system for weather monitorin
 
 1. **Clone the repository**:
    
-   git clone https://github.com/your_username/weather_monitoring.git
-   cd weather_monitoring
+git clone https://github.com/your_username/weather_monitoring.git
+cd weather_monitoring
+
+
 Install dependencies:
 
-
+bash
 pip install -r requirements.txt
 Run the application:
-
-
 cd app
 python app.py
 
-#Usage
+##Usage
 Access the application in your browser at http://127.0.0.1:5000/
 View the plot of current temperatures by navigating to http://127.0.0.1:5000/plot
-#License
+##License
 This project is not licensed.
 
-Acknowledgments
+##Acknowledgments
 OpenWeatherMap API https://openweathermap.org/
 
 
