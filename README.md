@@ -15,7 +15,7 @@ This project implements a real-time data processing system for weather monitorin
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your_username/weather_monitoring.git
+   git clone https://github.com/megha519/Real-Time-Data-Processing-System-for-Weather-Monitoring-with-Rollups-and-Aggregates.git
    cd weather_monitoring
    pip install -r requirements.txt
    Run the application:
